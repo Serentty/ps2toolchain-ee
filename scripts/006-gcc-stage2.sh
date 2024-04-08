@@ -67,7 +67,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --quiet \
     --prefix="$PS2DEV/$TARGET_ALIAS" \
     --target="$TARGET" \
-    --enable-languages="c,c++" \
+    --enable-languages="c,c++,jit" \
     --with-float=hard \
     --with-sysroot="$PS2DEV/$TARGET_ALIAS/$TARGET" \
     --with-newlib \
